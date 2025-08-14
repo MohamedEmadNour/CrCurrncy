@@ -2,7 +2,7 @@ Flask==3.0.3
 requests==2.32.3
 ecdsa==0.18.0
 mnemonic==0.21
-pysqlcipher3==0.5.1
+pysqlcipher3==1.2.0
 gunicorn==23.0.0
 bip39==0.0.2
 certifi==2025.4.26
@@ -19,4 +19,5 @@ pillow==11.2.1
 pycparser==2.22
 pydub==0.25.1
 urllib3==2.4.0
+
 

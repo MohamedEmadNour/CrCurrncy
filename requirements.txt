@@ -1,4 +1,9 @@
-﻿bip39==0.0.2
+Flask
+ecdsa
+mnemonic
+pysqlcipher3
+gunicorn
+bip39==0.0.2
 certifi==2025.4.26
 cffi==1.17.1
 charset-normalizer==3.4.2

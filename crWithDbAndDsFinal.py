@@ -130,7 +130,7 @@ app = Flask(__name__)
 PEERS = set()
 PENDING_TRANSACTIONS = []
 NODE_ADDRESS = ""
-BOOTSTRAP_NODE = "http://127.0.0.1:5000"
+BOOTSTRAP_NODE = "https://crcurrncy.onrender.com"
 
 
 def generate_key_from_password(password, salt):
@@ -1202,4 +1202,5 @@ HTML_TEMPLATE = """
 if __name__ == "__main__":
     join_network()
     port = int(os.environ.get("PORT", 5000))
+
     app.run(host='0.0.0.0', port=port, debug=False)
